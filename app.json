@@ -1,0 +1,37 @@
+{
+  "name": "SCORPION-MD",
+  "description": "This is a simple whatsapp bot built with nodejs to make your WhatsApp enjoyable",
+  "keywords": [
+    "bot",
+    "whatsapp",
+    "scorpion",
+    "whatsapp-stickers",
+    "anime",
+    "whatsapp-bot",
+    "whatsapp-sticker-bot",
+    "whatsapp-botto",
+    "baileys",
+    "baileys-md",
+    "md-bot"
+  ],
+  "website": "https://github.com/Scorpion4081/blog_template#readme",
+  "repository": "https://github.com/Keithkeizzah/KEITH-MD.git",
+  "logo": "https://i.imgur.com/dAtHp2k.jpeg",
+  "success_url": "/",
+  "env": {
+    "OWNER_NUMBER": {
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254727282934, 254718192021",
+      "required": false
+    },
+    "SESSION": {
+      "description": "add your session id here",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "stack": "heroku-24"
+}
